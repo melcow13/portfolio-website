@@ -6,6 +6,7 @@ Background Color (beige): #efeadd;
 Secondary Color (turquoise): #2a7575;
  */
 
+
  :root {
   --primary-color: #efeadd;
   --primary-text-color: #194242;
@@ -42,7 +43,7 @@ Secondary Color (turquoise): #2a7575;
 
 
 .navigation-list {
-  color: inherit;
+  color: var(--primary-color);
   list-style-type: none;
 
 }
@@ -69,7 +70,7 @@ a:hover, a:focus {
 .button {
   font-family: inherit;
   border: none;
-  color: #var(--primary-color);
+  color: var(--primary-color);
   padding: 5px;
   border-radius: 10px;
   background-color: var(--primary-text-color);
@@ -224,7 +225,7 @@ footer {
 
 @keyframes color-change {
   0% {
-    fill: ##f8a221;
+    fill: #f8a221;
   }
   50% {
     fill: #CC7625;
