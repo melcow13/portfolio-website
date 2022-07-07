@@ -153,6 +153,13 @@ footer {
    grid-row: 1 / 3;
  }
 }
+.profile_container {
+  justify-content: center;
+  padding-top: 50px;
+  padding-right:100px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+}
 
 .profile_image{
   float: left;
